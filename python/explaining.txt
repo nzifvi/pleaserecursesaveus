@@ -1,0 +1,25 @@
+Code basically imports all thge libraries needed.
+It then loads the image from the path then sizes the image into the dimesions we're working with (line 6-7)
+Splits the image into the RGB respectively, normalises the values to binary and opens a file in write mode.
+Writes the red then blue and then green channels into the array split by a lowercase "n" (separator).
+Sets the path to downloads, calls a function to process the image, normalise and etc and then finally inserts RGB values to the file and saves it.
+
+
+
+
+
+
+
+# line 6: Load the image from the given path
+# line 7: Resize to standard dimensions (match training size)
+# line 8: Split the image into Red, Green, and Blue channels
+# line 10: Normalize values to be between 0 and 1
+# line 16: Open the file in write mode
+# line 17: Write each row of the red channel with 5 decimal places
+# line 18: Adds "n" as a separator
+# line 20: Write each row of the green channel with 5 decimal places
+# line 21: Adds "n" as a separator
+# line 23: Write each row of the blue channel with 5 decimal places
+# line 28: Set the path to save the file in the Downloads folder
+# line 30: Call function to process the image
+# line 31: Call function to save RGB values to file
