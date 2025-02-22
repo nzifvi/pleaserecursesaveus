@@ -1,0 +1,17 @@
+a
+b
+c
+d
+e
+
+First row: a
+ - Contains no of Filters for layer
+Second row: b
+ - Contains depth of Filters for layer
+Third row: c
+ - Contains height of Filters for layer
+ Fourth row: d
+ - Contains width of Filters for layer
+ Fifth row: e
+ - Contains biases vector size
+
