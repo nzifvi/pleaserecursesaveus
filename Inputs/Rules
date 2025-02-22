@@ -1,0 +1,6 @@
+
+Rules for valid input to CNN:
+
+1) Must have a dimension of 500x500.
+2) Must have 3 channels: R, G, B.
+3) Must be in a valid format, such as one of the TrainingSet elements minus the first row of control information.
